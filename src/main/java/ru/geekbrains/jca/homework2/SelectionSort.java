@@ -52,8 +52,6 @@ public class SelectionSort {
 
         }
 
-
-
         /*for (int i = 0; i < arr.length - 1; i++) { // сравнение по производителю
             int min = i;
             for (int j = i + 1; j < arr.length; j++) {

@@ -18,6 +18,7 @@ public class Homework2 {
 
     }
 
+
     static void  print2dArray(Object[][] arr) { // метод вывода 2д массива
         for (int y = 0; y < arr.length; y++) {
             for (int x = 0; x < arr[y].length; x++) {
