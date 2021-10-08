@@ -11,15 +11,14 @@ public class Homework2 {
             arr[i] = Notebook.getNotebook();
 
         }
-        print2dArray(arr);
+        printdArray(arr);
         System.out.println();
         SelectionSort.sort(arr);
-        print2dArray(arr);
+        printdArray(arr);
 
     }
 
-
-    static void  print2dArray(Object[][] arr) { // метод вывода 2д массива
+    static void  printdArray(Object[][] arr) { // метод вывода 2д массива
         for (int y = 0; y < arr.length; y++) {
             for (int x = 0; x < arr[y].length; x++) {
                 System.out.print(arr[y][x] + "  ");
